@@ -1,5 +1,5 @@
 TAG = denissliva/psalm
-VERSION = 1.0.0
+VERSION = php8.1
 DESTINATION = .
 DEBUG_COMMAND = /bin/bash
 

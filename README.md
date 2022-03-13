@@ -5,11 +5,11 @@ Docker container to install and run psalm
 ### Installation / Usage
 1. Install the denissliva/psalm container:
 ```bash
-docker pull denissliva/psalm:1.0.0
+docker pull denissliva/psalm:php8.1
 ```
 2. Run psalm through the psalm container:
 ```bash
-sudo docker run --rm --volume $(pwd):/psalm --name="psalm" "denissliva/psalm:1.0.0" {destination}
+sudo docker run --rm --volume $(pwd):/psalm --name="psalm" "denissliva/psalm:php8.1" {destination}
 # or
 make run
 ```
