@@ -15,12 +15,6 @@ build:
 push:
 	docker push $(TAG):$(VERSION)
 
-debug:
-	docker run \
-	       --rm \
-	       --interactive \
-	       "$(TAG)$(VERSION)" $(DEBUG_COMMAND)
-
 run:
 	@docker run \
 	       --rm \
